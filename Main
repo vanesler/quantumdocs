@@ -1,0 +1,7 @@
+git branch -M main
+git init
+git remote add origin https://github.com/vanesler/quantumdocs.git
+git add .
+git commit -m "Initial MVP commit"
+git branch -M main
+git push -u origin main
