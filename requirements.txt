@@ -1,0 +1,8 @@
+streamlit
+pytesseract
+pillow
+spacy
+easyocr
+PyMuPDF
+pandas
+numpy
