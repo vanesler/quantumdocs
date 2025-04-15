@@ -7,6 +7,10 @@ import io
 import pandas as pd
 import numpy as np
 import re
+import cv2
+
+gray = cv2.cvtColor(np.array(image), cv2.COLOR_BGR2GRAY)
+_, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)
 
 st.set_page_config(page_title="QuantumDocs - OCR Only", layout="wide")
 st.title("QuantumDocs")
