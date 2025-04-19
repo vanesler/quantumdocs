@@ -1,0 +1,9 @@
+streamlit
+fitz
+PyMuPDF
+pandas
+openpyxl
+paddleocr
+Pillow
+openai
+numpy
