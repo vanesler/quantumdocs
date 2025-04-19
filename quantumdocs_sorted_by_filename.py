@@ -1,4 +1,7 @@
 
+import os
+st.write("Tesseract path:", pytesseract.pytesseract.tesseract_cmd)
+
 import streamlit as st
 from PIL import Image, ImageOps, ImageEnhance
 import pytesseract
