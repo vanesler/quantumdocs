@@ -18,7 +18,7 @@ st.write("Tesseract path:", pytesseract.pytesseract.tesseract_cmd)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "sk-..."))
 
-st.title("🔷 QuantumDocs: Sorted OCR by Filename")
+st.title("QuantumDocs")
 
 uploaded_files = st.file_uploader("📁 Upload documents (processed in filename order)", type=["pdf", "png", "jpg", "jpeg", "tif"], accept_multiple_files=True)
 
@@ -34,6 +34,9 @@ def prepare_image(img):
         enhanced = ImageEnhance.Contrast(inverted).enhance(1.5)
         return enhanced
     return img.convert("RGB")
+
+st.write("🔍 Checking for tesseract at /usr/bin/tesseract...")
+st.write("Exists?", os.path.exists("/usr/bin/tesseract"))
 
 def extract_text(file):
     try:
