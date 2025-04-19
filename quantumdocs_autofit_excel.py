@@ -15,7 +15,7 @@ from openpyxl.utils import get_column_letter
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "sk-..."))
 
 st.set_page_config(page_title="QuantumDocs: Autofit Excel", layout="wide")
-st.title("🔷 QuantumDocs: JSON Fix + Excel Autofit Columns")
+st.title("QuantumDocs")
 
 uploaded_files = st.file_uploader("📁 Upload ANY number of documents", type=["pdf", "png", "jpg", "jpeg", "tif"], accept_multiple_files=True)
 
