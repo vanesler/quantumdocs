@@ -10,4 +10,4 @@ OCR your title docs. Review them faster.
 
 ## To run:
 ```bash
-streamlit run quantumdocs_autofit_excel.py
+streamlit run quantumdocs_sorted_by_filename.py
