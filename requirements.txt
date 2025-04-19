@@ -1,8 +1,0 @@
-streamlit
-fitz
-PyMuPDF
-pandas
-openpyxl
-easyocr
-Pillow
-openai
