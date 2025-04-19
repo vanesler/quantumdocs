@@ -1,7 +1,4 @@
 
-import os
-st.write("Tesseract path:", pytesseract.pytesseract.tesseract_cmd)
-
 import streamlit as st
 from PIL import Image, ImageOps, ImageEnhance
 import pytesseract
@@ -10,6 +7,8 @@ import io
 import pandas as pd
 import os
 import json
+import os
+st.write("Tesseract path:", pytesseract.pytesseract.tesseract_cmd)
 from openai import OpenAI
 from openpyxl import load_workbook
 from openpyxl.styles import Alignment
