@@ -1,6 +1,7 @@
 streamlit
-easyocr
-pillow
-numpy
-pandas
+pytesseract
+Pillow
 PyMuPDF
+pandas
+openpyxl
+openai
