@@ -1,1 +1,0 @@
-Place EasyOCR model files here manually if needed. (Repo host cannot auto-download.)
