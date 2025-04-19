@@ -1,0 +1,1 @@
+Download EasyOCR English models manually and place them here.
